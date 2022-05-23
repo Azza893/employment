@@ -32,12 +32,15 @@
 }
 .myfooter {
     background-color: cornflowerblue;
-    padding: 10px;
+    padding-top: 10px;
     font-family: myfont;
     text-align:justify;
 }
-    .myfooter a{
-        color:white;
+    .myfooter h3,ul{
+        margin-bottom:20px;
+    }
+    .myfooter a {
+        color: white;
     }
 .subfooter {
     background-color: #0c5c82;
