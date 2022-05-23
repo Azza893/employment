@@ -1,4 +1,9 @@
-﻿@font-face{
+﻿*{
+    padding:0;
+    margin:0;
+}
+
+@font-face{
     font-family:myfont;
     src:url('font/GE_SS_Two_Bold.otf')
 }
@@ -29,10 +34,14 @@
     background-color: cornflowerblue;
     padding: 10px;
     font-family: myfont;
+    text-align:justify;
 }
+    .myfooter a{
+        color:white;
+    }
 .subfooter {
-    background-color:darkblue;
-    color:white;
-    text-align:center;
+    background-color: #0c5c82;
+    color: white;
+    text-align: center;
     padding: 10px;
 }
