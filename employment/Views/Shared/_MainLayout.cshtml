@@ -47,26 +47,16 @@
                         </a>
                     </li>
                 </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="#">
-                            <i class="glyphicon glyphicon-log-in"> </i>
-                            تسجيل الدخول
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="glyphicon glyphicon-lock"> </i>
-                            اشتراك
-                        </a>
-                    </li>
-                </ul>
+               @Html.Partial("Login")
             </div>
         </div>
 
     </div>
-    <div>
-        @RenderBody()
+    <div class="container">
+        <div class="row"> 
+            @RenderBody()
+        </div>
+       
     </div>
     <footer class="navbar navbar-fixed-bottom myfooter">
         <div class="container">
