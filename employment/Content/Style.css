@@ -8,7 +8,7 @@
     src:url('font/GE_SS_Two_Bold.otf')
 }
 @font-face {
-    font-family: myfont;
+    font-family: myfont2;
     src: url('font/DroidKufi-Regular.ttf')
 }
 .navbar-default {
@@ -36,8 +36,10 @@
     font-family: myfont;
     text-align:justify;
 }
-    .myfooter h3,ul{
+    .myfooter h3,ul,p{
         margin-bottom:20px;
+        font-family:myfont2;
+        list-style-type:none;
     }
     .myfooter a {
         color: white;
